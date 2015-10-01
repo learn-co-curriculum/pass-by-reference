@@ -89,7 +89,7 @@ end
 some_words = ["hi", "there"]
 change_the_array(some_words, "quizmaster")
 
-puts.array.inspect
+puts some_words.inspect
   #=> ["hi", "there", "quizmaster"]
 
 ```
