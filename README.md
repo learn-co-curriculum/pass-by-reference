@@ -130,3 +130,5 @@ Here's a handy reference regarding different datatypes and their mutability:
 ## Resources
 
 * [Pass By Value vs. Pass By Reference](http://ahimmelstoss.github.io/blog/2014/06/11/pass-by-value-vs-pass-by-reference-in-ruby/)
+
+<a href='https://learn.co/lessons/pass-by-reference' data-visibility='hidden'>View this lesson on Learn.co</a>
