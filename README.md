@@ -102,8 +102,8 @@ On the other hand, variables bound to objects that are passed by value, like int
 Let's take a look:
 
 ``` ruby
-def age_me_by(start_age, age_amount)
-  start_age = start_age + age_amount
+def age_me_by(age, age_amount)
+ age = age + age_amount
 end
 
 age = 31
