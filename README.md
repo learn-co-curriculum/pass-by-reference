@@ -53,7 +53,7 @@ We encounter a similar problem when going in the opposite direction.
 Methods can take arguments, and here lies something very curious. What happens if we pass a variable in as an argument to a method? What happens when that reference is mutated (changed)?
 
 ``` ruby
-names = []
+list_of_names = []
 
 def add_to_roster(list_of_names, name)
   list_of_names << name
@@ -62,7 +62,7 @@ end
 add_to_roster(names, "Steven")
 add_to_roster(names, "Avi")
 add_to_roster(names, "Joe")
-names #=> ["Steven", "Avi", "Joe"]
+list_of_names #=> ["Steven", "Avi", "Joe"]
 ```
 
 Arguments act as a gateway into a method body, allowing a variable to be passed into its local scope from the external scope that calls the method.
