@@ -126,6 +126,10 @@ Here's a handy reference regarding different datatypes and their mutability:
 | float     | value      |
 | boolean   | value      |
 
+**Note:** You may not have encountered Hashes yet. If this is the case, briefly - hashes are similar to arrays in that they 
+are a _collection_ data type - they contain multiple values. An array can be thought of as a sort of ordered list. A hash, 
+however, is more like a _dictionary_, where values can be looked up by associated keys. We will explore hashes in detail
+in later lessons.
 
 ## Resources
 
